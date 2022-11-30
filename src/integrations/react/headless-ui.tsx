@@ -38,4 +38,4 @@ export const DropDown = qwikify$(({ options }: DropDownProps) => {
       </Menu.Items>
     </Menu>
   );
-});
+}, { eagerness: 'hover' });
